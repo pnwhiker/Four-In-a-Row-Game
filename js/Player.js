@@ -1,7 +1,7 @@
 class Player {
-    constructor (playerID, playerTokens, tokenColor, playerIsTurn) {
+    constructor (playerID, tokenColor, playerIsTurn = false) {
         this.playerID = playerID;
-        this.playerTokens = playerTokens;
+        this.playerTokens = [];
         this.tokenColor = tokenColor;
         this.playerIsTurn = playerIsTurn;
     };
